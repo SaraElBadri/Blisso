@@ -25,15 +25,19 @@ if (document.readyState == "loading") {
                 
                 <img src="${selectedProduct.image}" alt="" class="product-img">
                 <div class="info">
-                <h1>${selectedProduct.title}</h1>
-                <div class="price">${selectedProduct.price} €</div>
-                <div class="category">${selectedProduct.category} </div>
+                <h1 class="title">${selectedProduct.title}</h1>
                 <div class="brand">${selectedProduct.brand} </div>
+
                 <div class="rating">${selectedProduct.rating}</div>
+                <div class="category">${selectedProduct.category} </div>
+                
+                
+                <div class="price">${selectedProduct.price} €</div>
                 </div>
                 
                  </div> 
-                <div>${selectedProduct.description}</div>
+                 <h1 class="description">Description</h1>
+                <div class="description">${selectedProduct.description}</div>
                 
            
         `;
